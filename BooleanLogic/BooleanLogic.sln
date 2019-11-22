@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooleanLogic", "BooleanLogic\BooleanLogic.csproj", "{9FB6AF46-C726-4733-89E7-134739CEBEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FB6AF46-C726-4733-89E7-134739CEBEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB6AF46-C726-4733-89E7-134739CEBEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB6AF46-C726-4733-89E7-134739CEBEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB6AF46-C726-4733-89E7-134739CEBEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6640589A-E93F-41E5-AD85-0ABBAAEB9DF4}
+	EndGlobalSection
+EndGlobal
