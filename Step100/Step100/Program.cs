@@ -21,12 +21,12 @@ namespace Step100
 
             Console.WriteLine("Select an integer to index our array of strings, and the result will be displayed!");
             int stringArrayIndex = Convert.ToInt32(Console.ReadLine());
-            while (stringArrayIndex > 4 || stringArrayIndex < 0)
+            while (stringArrayIndex >= stringArray.Length || stringArrayIndex < 0)
             {
                 Console.WriteLine("Error, you selcted an index that does not exist. Next time, select one of the following integers : 0, 1, 2, 3, 4 ");
                 stringArrayIndex = Convert.ToInt32(Console.ReadLine());
             }
-            if (stringArrayIndex > 0 && stringArrayIndex < 5)
+            if (stringArrayIndex >= 0 && stringArrayIndex < stringArray.Length)
             {
                 Console.WriteLine(stringArray[stringArrayIndex]);
                 Console.ReadLine();
@@ -34,12 +34,12 @@ namespace Step100
 
             Console.WriteLine("Select an integer to index our array of integers, and the result will be displayed!");
             int intArrayIndex = Convert.ToInt32(Console.ReadLine());
-            while (intArrayIndex > 4 || intArrayIndex < 0)
+            while (intArrayIndex >= intArray.Length || intArrayIndex < 0)
             {
                 Console.WriteLine("Error, you selcted an index that does not exist. Next time, select one of the following integers : 0, 1, 2, 3, 4 ");
                 intArrayIndex = Convert.ToInt32(Console.ReadLine());
             }
-            if (intArrayIndex > 0 && intArrayIndex < 5)
+            if (intArrayIndex >= 0 && intArrayIndex < intArray.Length)
             {
                 Console.WriteLine(intArray[intArrayIndex]);
                 Console.ReadLine();
@@ -47,12 +47,12 @@ namespace Step100
 
             Console.WriteLine("Select an integer to index our list of strings, and the result will be displayed!");
             int stringListIndex = Convert.ToInt32(Console.ReadLine());
-            while (stringListIndex > stringList.Count || stringListIndex < 0)
+            while (stringListIndex >= stringList.Count || stringListIndex < 0)
             {
                 Console.WriteLine("Error, you selcted an index that does not exist. Next time, select one of the following integers : 0, 1, 2 ");
                 stringListIndex = Convert.ToInt32(Console.ReadLine());
             }
-            if (stringListIndex > 0 && stringListIndex <= stringList.Count)
+            if (stringListIndex >= 0 && stringListIndex < stringList.Count)
             {
                 Console.WriteLine(stringList[stringListIndex]);
                 Console.ReadLine();
