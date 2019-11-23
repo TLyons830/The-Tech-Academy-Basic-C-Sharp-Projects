@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step100", "Step100\Step100.csproj", "{58905B06-D793-48FF-9B23-6A3D1309BB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58905B06-D793-48FF-9B23-6A3D1309BB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58905B06-D793-48FF-9B23-6A3D1309BB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58905B06-D793-48FF-9B23-6A3D1309BB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58905B06-D793-48FF-9B23-6A3D1309BB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB1FF3B5-5100-40BA-BB6E-8D11A812F869}
+	EndGlobalSection
+EndGlobal
