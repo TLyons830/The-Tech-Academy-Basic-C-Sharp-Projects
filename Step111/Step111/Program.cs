@@ -13,11 +13,11 @@ namespace Step111
             Class1 methods = new Class1();
 
             Console.WriteLine("Please provide us an integer");
-            methods.SetUserInt(Convert.ToInt32(Console.ReadLine()));
+            int i = (Convert.ToInt32(Console.ReadLine()));
 
-            int resultOne = methods.methodOne();
-            int resultTwo = methods.methodTwo();
-            int resultThree = methods.methodThree();
+            int resultOne = methods.AddOne(i);
+            int resultTwo = methods.MinusOne(i);
+            int resultThree = methods.TimesTwo(i);
 
             Console.WriteLine("Your integer + 1 is: "+resultOne+ "\nYour integer - 1 is: "+resultTwo+ "\nYour integer * 2 is: "+resultThree);
             Console.ReadLine();

@@ -8,32 +8,24 @@ namespace Step111
 {
     public class Class1
     {
-        public int UserInt;
 
-        public int SetUserInt (int uInt)
+        public int AddOne(int i)
         {
-            UserInt = uInt;
-            return UserInt;
+            int AddOne = i + 1;
+            return AddOne;
         }
 
-        public int methodOne()
+        public int MinusOne(int i)
         {
-            int methodOneResult = UserInt + 1;
-            return methodOneResult;
+            int MinusOne = i - 1;
+            return MinusOne;
         }
 
-        public int methodTwo()
+        public int TimesTwo(int i)
         {
-            int methodTwoResult = UserInt - 1;
-            return methodTwoResult;
+            int TimesTwo = i * 2;
+            return TimesTwo;
         }
-
-        public int methodThree()
-        {
-            int methodTheeResult = UserInt * 2;
-            return methodTheeResult;
-        }
-
 
 
     }
