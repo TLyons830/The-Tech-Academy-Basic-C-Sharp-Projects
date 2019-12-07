@@ -9,18 +9,28 @@ namespace Step114
     public class Class1
     {
         public int i;
+        public decimal d;
+        public string s;
 
-        public int mathOpp(int i)
+        public int MathOpp(int i)
         {
             int mathOpp = i + 1;
             return mathOpp;
         }
 
-        public decimal mathOpp(decimal i)
+        public decimal MathOpp(decimal d)
         {
-            decimal mathOpp = i * 2;
-            mathOpp = Convert.ToInt32(mathOpp);
-            return mathOpp;
+            decimal mathOpp = d * 2;
+            int result = Decimal.ToInt32(mathOpp);
+            return result;
         }
+
+        public int MathOpp(string s)
+        {
+            int stringNum = Convert.ToInt32(s);
+            int result = stringNum + 5;
+            return result;
+        }
+
     }
 }

@@ -12,17 +12,18 @@ namespace Step114
         {
             Class1 classInt = new Class1();
             classInt.i = 12;
-            int resultOne = classInt.mathOpp(classInt.i);
-            Console.WriteLine(resultOne);
+            Console.WriteLine(classInt.MathOpp(classInt.i));
             Console.ReadLine();
 
             Class1 classDec = new Class1();
-            classDec.i = Decimal.ToInt32(20.2M);
-            int resultTwo = classDec.mathOpp(classDec.i);
-            Console.WriteLine(resultTwo);
+            classDec.d = 55.9M;
+            Console.WriteLine(classDec.MathOpp(classDec.d));
             Console.ReadLine();
 
-
+            Class1 classStr = new Class1();
+            classStr.s = "10";
+            Console.WriteLine(classStr.MathOpp(classStr.s));
+            Console.ReadLine();
         }
     }
 }
