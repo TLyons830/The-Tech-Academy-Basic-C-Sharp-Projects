@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{72849CF9-68FB-44D9-8365-C828CE5F7EC1}</ProjectGuid>
+    <ProjectGuid>{508423C2-71C1-43DF-A65F-A224FE5BDADB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassesAndObjects</RootNamespace>
-    <AssemblyName>ClassesAndObjects</AssemblyName>
+    <RootNamespace>Step120</RootNamespace>
+    <AssemblyName>Step120</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Card.cs" />
-    <Compile Include="Deck.cs" />
-    <Compile Include="Game.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwentyOneGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
