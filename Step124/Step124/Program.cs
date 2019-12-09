@@ -16,6 +16,10 @@ namespace Step124
 
             employee.SayName();
             Console.ReadLine();
+
+            employee.Quit();
+            Console.ReadLine();
+
         }
     }
 }
