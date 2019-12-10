@@ -9,9 +9,11 @@ namespace Step124
     public class Employee : Person, IQuittable
     {
 
-        public List<Person> Employees { get; set; }
+        public List<Employee> Employees = new List<Employee>();
 
         public int id { get; set; }
+
+
         public override void SayName()
         {
             foreach (Person person in Employees)
@@ -22,15 +24,12 @@ namespace Step124
             }
         }
 
-        public void addEmployee()
-        {
-            Employees.Add(Person.firstName);
-        }
 
 
-        public void Quit()
+        public void Quit(string name)
         {
-            Console.WriteLine("This employee is an employee object, which inherits this method from the IQuittable Inteface.");
+            name = firstName;
+            Console.WriteLine(name+" is an employee object, which inherits this method from the IQuittable Inteface.");
         }
     }
 }

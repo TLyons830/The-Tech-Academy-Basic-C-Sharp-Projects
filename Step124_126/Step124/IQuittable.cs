@@ -8,6 +8,6 @@ namespace Step124
 {
     interface IQuittable
     {
-        void Quit();
+        void Quit(string name);
     }
 }

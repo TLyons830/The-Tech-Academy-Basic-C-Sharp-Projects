@@ -10,17 +10,15 @@ namespace Step124
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.Employees = new List<Person>();
-            Employee employee1 = new Employee();
-            employee.firstName = "Sample";
-            employee.lastName = "Student";
-            employee.id = 1;
+            IQuittable employee = new Employee() { firstName = "interface", lastName = "practice", id = 2 };
+            Employee employee1 = new Employee() { firstName = "Sample", lastName = "Student", id = 1 };
+            employee1.Employees = new List<Employee>();
+            employee1.Employees.Add(employee1);
 
-            employee.SayName();
+            employee1.SayName();
             Console.ReadLine();
 
-            employee.Quit();
+            employee.Quit(employee1.firstName);
             Console.ReadLine();
 
         }
