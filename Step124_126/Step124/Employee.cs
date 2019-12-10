@@ -9,14 +9,22 @@ namespace Step124
     public class Employee : Person, IQuittable
     {
 
-        public List<Employee> Employees { get; set; }
+        public List<Person> Employees { get; set; }
 
         public int id { get; set; }
         public override void SayName()
         {
-            Console.WriteLine("Employee: ");
-            base.SayName();
-            Console.WriteLine("ID: "+id);
+            foreach (Person person in Employees)
+            {
+                Console.WriteLine("Employee: ");
+                base.SayName();
+                Console.WriteLine("ID: " + id);
+            }
+        }
+
+        public void addEmployee()
+        {
+            Employees.Add(Person.firstName);
         }
 
 
