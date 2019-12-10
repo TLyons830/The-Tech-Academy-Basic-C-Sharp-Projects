@@ -11,8 +11,8 @@ namespace Step124
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            employee.firstName = "Sample";
-            employee.lastName = "Student";
+            Employee employees = new List();
+            employee.Employees.Add{ employee.firstName = "Sample", employee.lastName = "student", employee.id = 1 };
 
             employee.SayName();
             Console.ReadLine();
