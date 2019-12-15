@@ -31,10 +31,13 @@ namespace TwentyOne
             int[] result = new int[aceCount + 1];
             int value = Hand.Sum(x => _cardValue[x.Face]);
             result[0] = value;
-            if (result.Length == 1) return result;
+            if (result.Length == 1)
+            {
+                return result;
+            }
             for (int i = 1; i < result.Length; i++)
             {
-                value += value + (i * 10);
+                value = value + (i * 10);
                 result[i] = value;
             }
             return result;
