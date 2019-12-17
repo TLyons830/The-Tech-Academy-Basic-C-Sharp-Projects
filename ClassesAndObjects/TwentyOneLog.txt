@@ -113,3 +113,165 @@ Seven of Clubs
 12/14/2019 6:27:34 PM
 Six of Spades
 
+12/14/2019 9:49:22 PM
+Five of Diamonds
+
+12/14/2019 9:49:22 PM
+Six of Clubs
+
+12/14/2019 9:49:22 PM
+Ten of Spades
+
+12/14/2019 9:49:23 PM
+Ten of Diamonds
+
+12/14/2019 9:49:31 PM
+Ten of Hearts
+
+12/16/2019 10:49:15 PM
+Four of Hearts
+
+12/16/2019 10:49:15 PM
+Queen of Clubs
+
+12/16/2019 10:49:15 PM
+Ten of Diamonds
+
+12/16/2019 10:49:15 PM
+Ace of Clubs
+
+12/16/2019 10:49:27 PM
+Queen of Diamonds
+
+12/16/2019 10:49:27 PM
+Five of Spades
+
+12/16/2019 10:49:27 PM
+Queen of Hearts
+
+12/16/2019 10:49:27 PM
+Two of Diamonds
+
+12/16/2019 10:49:38 PM
+King of Spades
+
+12/16/2019 11:00:41 PM
+Jack of Spades
+
+12/16/2019 11:00:41 PM
+Four of Hearts
+
+12/16/2019 11:00:41 PM
+Eight of Diamonds
+
+12/16/2019 11:00:41 PM
+Six of Diamonds
+
+12/16/2019 11:00:50 PM
+Queen of Hearts
+
+12/16/2019 11:06:40 PM
+Three of Clubs
+
+12/16/2019 11:06:40 PM
+Queen of Diamonds
+
+12/16/2019 11:06:40 PM
+Two of Clubs
+
+12/16/2019 11:06:40 PM
+Ace of Clubs
+
+12/16/2019 11:06:47 PM
+Queen of Clubs
+
+12/16/2019 11:06:47 PM
+Eight of Diamonds
+
+12/16/2019 11:06:47 PM
+Six of Hearts
+
+12/16/2019 11:06:47 PM
+Seven of Diamonds
+
+12/16/2019 11:06:56 PM
+King of Clubs
+
+12/16/2019 11:07:01 PM
+Eight of Diamonds
+
+12/16/2019 11:07:01 PM
+Four of Spades
+
+12/16/2019 11:07:01 PM
+Six of Clubs
+
+12/16/2019 11:07:01 PM
+Nine of Diamonds
+
+12/16/2019 11:07:07 PM
+King of Spades
+
+12/16/2019 11:07:11 PM
+Ten of Diamonds
+
+12/16/2019 11:07:11 PM
+Three of Diamonds
+
+12/16/2019 11:07:11 PM
+Two of Spades
+
+12/16/2019 11:07:11 PM
+King of Hearts
+
+12/16/2019 11:07:18 PM
+Ace of Clubs
+
+12/16/2019 11:07:18 PM
+Four of Clubs
+
+12/16/2019 11:12:51 PM
+Seven of Spades
+
+12/16/2019 11:12:51 PM
+Eight of Spades
+
+12/16/2019 11:12:51 PM
+Four of Spades
+
+12/16/2019 11:12:51 PM
+Seven of Clubs
+
+12/16/2019 11:12:58 PM
+Three of Hearts
+
+12/17/2019 10:26:25 AM
+Three of Spades
+
+12/17/2019 10:26:25 AM
+Ace of Clubs
+
+12/17/2019 10:26:25 AM
+Queen of Spades
+
+12/17/2019 10:26:25 AM
+Nine of Spades
+
+12/17/2019 10:26:33 AM
+King of Clubs
+
+12/17/2019 10:26:39 AM
+Jack of Spades
+
+12/17/2019 10:26:39 AM
+Ten of Spades
+
+12/17/2019 10:26:39 AM
+Six of Clubs
+
+12/17/2019 10:26:39 AM
+Eight of Diamonds
+
+12/17/2019 10:26:45 AM
+Four of Clubs
+
