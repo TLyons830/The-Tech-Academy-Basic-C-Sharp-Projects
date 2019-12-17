@@ -13,8 +13,10 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            const string casinoName = "Tyler's Casino";
 
-            Console.WriteLine("Welcome to Tyler's Casino! Let's start by telling me your name.");
+
+            Console.WriteLine("Welcome to {0}! Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +25,11 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Tyler\Desktop\The-Tech-Academy-Basic-C-Sharp-Projects\ClassesAndObjects\TwentyOneLog.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame();
                 game += player; //game = game + player;
                 player.isActivelyPlaying = true;
